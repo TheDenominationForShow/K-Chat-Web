@@ -9,21 +9,35 @@ html, body {
 .status_bar {
     color: rgb(255,255,255)
 }
-.container {
+.main_container{
+    height: 70%;
+}
+.main_chat_container {
     width:80%;
     margin-left:20%;
     padding: 0px 0 30px 0;
-    border-radius: 10px;
+    border-radius:  0px 10px 10px  0px ;
     background: #dddddd;
+    float: left;
 }
+
 .chat_container {
     margin-left:10px;
 }
+
 .list_container {
-    border-radius: 10px;
-    background: #dddddd;
+    
+    border-radius:10px  0px  0px 10px;
+    padding: 0px 0 30px 0;
+    background: #293c55;
     float: left;
+    height: 100%;
     width:18%;
+    color:#f60d08;
+}
+#online_tab{
+    background: #008AFF;
+    color: #f46009;
 }
 .bigtitle{
     margin: 1px auto;
